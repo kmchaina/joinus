@@ -27,19 +27,20 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Deploy to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Load SSH key
+        uses: webfactory/ssh-agent@v0.9.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          # The exported static site:
-          local-dir: ./out/
-          # FTP account should be rooted at the site's document root
-          # (public_html or the domain folder). Then "./" deploys there.
-          server-dir: ./
-          # FTP over TLS — most cPanel hosts only allow data transfers
-          # over the encrypted channel (fixes passive-mode data timeouts).
-          protocol: ftps
-          port: 21
-          timeout: 60000
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy to cPanel via rsync over SSH
+        env:
+          HOST: ${{ secrets.SSH_HOST }}
+          USER_NAME: ${{ secrets.SSH_USERNAME }}
+          PORT: ${{ secrets.SSH_PORT || '22' }}
+          REMOTE: ${{ secrets.SSH_REMOTE_PATH }}
+        run: |
+          rsync -avz --delete \
+            --exclude 'cgi-bin/' \
+            --exclude '.well-known/' \
+            -e "ssh -p $PORT -o StrictHostKeyChecking=accept-new" \
+            out/ "$USER_NAME@$HOST:$REMOTE/"
