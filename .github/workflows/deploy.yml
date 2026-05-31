@@ -38,5 +38,8 @@ jobs:
           # FTP account should be rooted at the site's document root
           # (public_html or the domain folder). Then "./" deploys there.
           server-dir: ./
-          # Switch to "ftps" if your host supports/ requires it.
-          protocol: ftp
+          # FTP over TLS — most cPanel hosts only allow data transfers
+          # over the encrypted channel (fixes passive-mode data timeouts).
+          protocol: ftps
+          port: 21
+          timeout: 60000
