@@ -1,0 +1,391 @@
+{
+  "Nav": {
+    "home": "Mwanzo",
+    "about": "Kuhusu Sisi",
+    "loans": "Aina za Mikopo",
+    "company": "Kampuni",
+    "education": "Elimu ya Fedha",
+    "impact": "Mchango",
+    "stories": "Hadithi za Wateja",
+    "resources": "Rasilimali",
+    "careers": "Ajira",
+    "partners": "Washirika Wetu",
+    "contact": "Wasiliana",
+    "apply": "Omba Mkopo"
+  },
+  "LanguageSwitcher": {
+    "label": "Lugha",
+    "en": "Kiingereza",
+    "sw": "Kiswahili"
+  },
+  "CompanyMenu": {
+    "about": "Sisi ni nani",
+    "impact": "Matokeo yetu",
+    "stories": "Mafanikio ya wateja",
+    "partners": "Tunaofanya nao kazi",
+    "careers": "Jiunge na timu"
+  },
+  "Trust": {
+    "regulated": "Benki Kuu ya Tanzania",
+    "regulatedSub": "Mtoa huduma wa Daraja 2",
+    "location": "Dar es Salaam",
+    "locationSub": "PSSSF Commercial Complex",
+    "repayment": "Urejeshaji 98%",
+    "repaymentSub": "Ukopeshaji wa kuwajibika",
+    "served": "Maelfu wamehudumiwa",
+    "servedSub": "Wanawake na biashara"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Mikopo yenye Leseni · Tanzania",
+      "title": "Uhuru wa kifedha, unaofikika.",
+      "subtitle": "Mikopo nafuu na elimu ya fedha kwa wanawake, wajasiriamali, na biashara ndogo.",
+      "ctaPrimary": "Omba Mkopo",
+      "ctaSecondary": "Tazama Mikopo",
+      "ctaWhatsapp": "WhatsApp"
+    },
+    "products": {
+      "eyebrow": "Aina za Mikopo",
+      "title": "Mikopo kwa kila hatua.",
+      "cta": "Mikopo yote",
+      "items": {
+        "group": { "name": "Mikopo ya Vikundi", "tag": "Wanawake · kila wiki" },
+        "business": { "name": "Mikopo ya Biashara", "tag": "Hadi TZS 200M" },
+        "salaried": { "name": "Mikopo ya Mishahara", "tag": "Kwa wafanyakazi" },
+        "property": { "name": "Mikopo ya Nyumba", "tag": "Nunua · jenga · karabati" },
+        "vehicle": { "name": "Mikopo ya Magari", "tag": "Magari · malori" },
+        "motorcycle": { "name": "Pikipiki & Bajaji", "tag": "Bodaboda · bajaji" },
+        "emergency": { "name": "Mikopo ya Dharura", "tag": "Haraka · muda mfupi" }
+      }
+    },
+    "why": {
+      "eyebrow": "Kwa Nini Joinus",
+      "title": "Zaidi ya mkopeshaji.",
+      "items": {
+        "regulated": { "title": "Tuna Leseni", "desc": "Chini ya usimamizi wa Benki Kuu." },
+        "women": { "title": "Tunalenga Wanawake", "desc": "Kwa ajili ya wanawake wajasiriamali." },
+        "education": { "title": "Elimu Imejumuishwa", "desc": "Wateja hujifunza, si kukopa tu." },
+        "fast": { "title": "Haraka & Nyumbufu", "desc": "Masharti yanayolingana na kipato." }
+      }
+    },
+    "impact": {
+      "title": "Mchango wetu, kwa namba.",
+      "stats": {
+        "women": "Wanawake waliohudumiwa",
+        "businesses": "Biashara zilizosaidiwa",
+        "trained": "Wateja waliofunzwa",
+        "portfolio": "Mzigo wa mikopo",
+        "repayment": "Kiwango cha urejeshaji"
+      }
+    },
+    "stories": {
+      "eyebrow": "Hadithi za Wateja",
+      "title": "Watu halisi. Ukuaji halisi.",
+      "cta": "Hadithi zaidi",
+      "items": {
+        "one": {
+          "quote": "Nilianza na kibanda kidogo cha chakula. Leo naendesha mgahawa unaohudumia wateja 80 kwa siku.",
+          "name": "Fatuma J.",
+          "detail": "Mmiliki wa mgahawa · mfano"
+        },
+        "two": {
+          "quote": "Mkopo wa gari ulinisaidia kununua lori la pili. Biashara yangu sasa inahudumia wateja 15 kwa mwezi.",
+          "name": "Peter M.",
+          "detail": "Usafirishaji · mfano"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "Washirika",
+      "title": "Tunaaminiwa na mashirika yanayoongoza.",
+      "cta": "Washirika wote"
+    },
+    "contactCta": {
+      "title": "Chukua hatua inayofuata kuelekea uhuru wa kifedha.",
+      "body": "Omba mtandaoni, tutumie ujumbe WhatsApp, au tutembelee Dar es Salaam.",
+      "ctaApply": "Omba Mkopo",
+      "ctaContact": "Wasiliana Nasi"
+    }
+  },
+  "Footer": {
+    "slogan": "Tumekuletea Uhuru wa Kifedha",
+    "tagline": "Fedha nafuu na za kuwajibika kwa Tanzania.",
+    "loansTitle": "Mikopo",
+    "companyTitle": "Kampuni",
+    "connectTitle": "Wasiliana Nasi",
+    "regulated": "Mtoa huduma za mikopo wa Daraja 2 mwenye leseni · Benki Kuu ya Tanzania",
+    "rights": "Haki zote zimehifadhiwa.",
+    "privacy": "Sera ya Faragha",
+    "terms": "Vigezo na Masharti"
+  },
+  "WhatsApp": {
+    "aria": "Ongea nasi WhatsApp",
+    "tooltip": "Ongea nasi",
+    "message": "Habari, ningependa kuuliza kuhusu mikopo yenu."
+  },
+  "Common": {
+    "fullName": "Jina Kamili",
+    "phone": "Namba ya Simu",
+    "email": "Barua Pepe",
+    "location": "Eneo / Mkoa",
+    "subject": "Mada",
+    "message": "Ujumbe",
+    "send": "Tuma Ujumbe",
+    "sending": "Inatuma…",
+    "submit": "Wasilisha",
+    "submitting": "Inawasilisha…",
+    "optional": "hiari",
+    "successTitle": "Ujumbe umetumwa",
+    "successBody": "Asante. Timu yetu itajibu ndani ya siku moja ya kazi.",
+    "selectPlaceholder": "Tafadhali chagua"
+  },
+  "About": {
+    "eyebrow": "Kuhusu Sisi",
+    "title": "Taasisi ya Kitanzania iliyojengwa kwa imani.",
+    "subtitle": "Tunawawezesha watu binafsi, wanawake, wajasiriamali, na biashara ndogo kupitia fedha za kuwajibika.",
+    "storyTitle": "Sisi ni nani",
+    "story": "Joinus Finance Company Ltd ni kampuni ya mikopo ya Kitanzania yenye leseni. Tunaunganisha mikopo inayofikika na elimu ya fedha ili kuziba pengo la ujumuishaji wa kifedha — tukihudumia vikundi vya wanawake, wajasiriamali, na biashara ndogo kutoka Dar es Salaam na kwingineko.",
+    "visionLabel": "Dira",
+    "vision": "Kuwa taasisi inayoaminika na inayoongoza ya mikopo, inayokuza uhuru wa kifedha kote Tanzania.",
+    "missionLabel": "Dhamira",
+    "mission": "Kutoa huduma za kifedha nafuu na za kuwajibika, zikiunganishwa na elimu ya fedha na ujenzi wa uwezo.",
+    "valuesTitle": "Maadili yetu",
+    "values": [
+      { "title": "Uadilifu", "desc": "Uaminifu na viwango vya juu vya maadili." },
+      { "title": "Uwazi", "desc": "Mawasiliano ya wazi kwa kila mtu." },
+      { "title": "Uwajibikaji", "desc": "Kuwajibika kwa wateja na jamii." },
+      { "title": "Kuwezesha Wateja", "desc": "Kila uamuzi unaweka nguvu mikononi mwa wateja." },
+      { "title": "Ukuaji", "desc": "Kuboresha kila wakati, kwa wateja na sisi." },
+      { "title": "Mchango kwa Jamii", "desc": "Mafanikio yanapimwa kwa jamii zilizobadilika." }
+    ],
+    "regulationTitle": "Tunasimamiwa na tunawajibika",
+    "regulation": "Joinus Finance ni mtoa huduma za mikopo wa Daraja la 2 mwenye leseni, anayefanya kazi chini ya usimamizi wa Benki Kuu ya Tanzania — tukijikita katika uwazi, bei za haki, ukusanyaji wa kuwajibika, na ulinzi wa data.",
+    "leadershipTitle": "Uongozi",
+    "leadershipNote": "Maelezo ya timu yanakuja hivi karibuni.",
+    "ctaTitle": "Uko tayari kupata uhuru wa kifedha?",
+    "ctaBody": "Jiunge na maelfu ya Watanzania wanaokua na Joinus Finance.",
+    "ctaApply": "Omba Mkopo",
+    "ctaContact": "Wasiliana Nasi"
+  },
+  "LoanProducts": {
+    "eyebrow": "Aina za Mikopo",
+    "title": "Mikopo iliyoundwa kwa ajili yako.",
+    "subtitle": "Aina saba za mikopo zilizoundwa kulingana na mahitaji halisi ya Watanzania, familia, na biashara.",
+    "suitableLabel": "Inafaa kwa",
+    "applyFor": "Omba",
+    "items": {
+      "group": { "name": "Mikopo ya Vikundi", "highlight": "Maarufu zaidi", "desc": "Mikopo ya vikundi inayolenga wanawake, ikiwa na mafunzo ya elimu ya fedha na mfumo wa urejeshaji wa kila wiki unaojenga nidhamu ya akiba.", "suitable": ["Vikundi vya wanawake", "Vyama", "Wajasiriamali wanawake"] },
+      "business": { "name": "Mikopo ya Biashara", "highlight": "Hadi TZS 200M", "desc": "Mkopo hadi TZS milioni 200 wenye mifumo nyumbufu na uchakataji wa haraka kwa biashara zinazokua.", "suitable": ["SMEs", "Wafanyabiashara", "Waagizaji", "Wakandarasi", "Wauzaji rejareja"] },
+      "salaried": { "name": "Mikopo ya Mishahara", "desc": "Mikopo nafuu yenye urejeshaji wa kila mwezi unaolingana na mzunguko wa mshahara wako.", "suitable": ["Wafanyakazi wa serikali", "Wafanyakazi wa sekta binafsi"] },
+      "property": { "name": "Mikopo ya Nyumba", "desc": "Gharamia ununuzi wa nyumba, ujenzi, ukarabati, au mali za kibiashara.", "suitable": ["Wanunuzi wa nyumba", "Wawekezaji", "Wamiliki wa nyumba"] },
+      "vehicle": { "name": "Mikopo ya Magari", "desc": "Mikopo ya magari ya binafsi na ya kibiashara, malori, na usafirishaji.", "suitable": ["Wamiliki wa biashara", "Wasafirishaji", "Usafirishaji"] },
+      "motorcycle": { "name": "Pikipiki & Bajaji", "highlight": "Mchango kwa jamii", "desc": "Kuwasaidia waendesha bodaboda, madereva wa bajaji, na biashara za usambazaji kumiliki vyombo vyao.", "suitable": ["Bodaboda", "Bajaji", "Wasambazaji"] },
+      "emergency": { "name": "Mikopo ya Dharura", "desc": "Msaada wa kifedha wa muda mfupi kwa wateja wanaostahili wenye mahitaji ya haraka.", "suitable": ["Wateja waliopo wa Joinus"] }
+    },
+    "requirementsTitle": "Utahitaji kwa kawaida",
+    "requirements": [
+      "Kitambulisho halali cha Taifa",
+      "Uthibitisho wa biashara au kipato",
+      "Namba ya simu inayotumika",
+      "Fomu ya maombi iliyojazwa"
+    ],
+    "ctaTitle": "Huna uhakika ni mkopo gani unafaa?",
+    "ctaBody": "Ongea na timu yetu tutakusaidia kupata suluhisho sahihi.",
+    "ctaApply": "Omba Sasa",
+    "ctaContact": "Ongea Nasi"
+  },
+  "Education": {
+    "eyebrow": "Elimu ya Fedha",
+    "title": "Tunafanya zaidi ya kukopesha — tunajenga jamii imara kifedha.",
+    "subtitle": "Kila mkopo huja na elimu ya fedha ya vitendo iliyoundwa kwa tabia za kudumu.",
+    "introTitle": "Maarifa ni msingi wa uhuru wa kifedha",
+    "intro": "Mipango yetu ni ya vitendo, inayofikika, na inayohusiana na maisha halisi — inatolewa kupitia vikao vya vikundi, ushauri wa mtu mmoja mmoja, na warsha za jamii kote Tanzania.",
+    "topicsTitle": "Tunachofundisha",
+    "topics": [
+      { "title": "Ukopaji wa Kuwajibika", "desc": "Kopa kile unachoweza kurejesha kwa urahisi." },
+      { "title": "Utamaduni wa Akiba", "desc": "Jenga nidhamu ya kuweka akiba mara kwa mara." },
+      { "title": "Usimamizi wa Biashara", "desc": "Simamia mtiririko wa fedha na ufanye maamuzi bora." },
+      { "title": "Utunzaji wa Kumbukumbu", "desc": "Fuatilia mapato, matumizi, na faida." },
+      { "title": "Uongozi wa Vikundi", "desc": "Ongoza vikundi kwa uwajibikaji na imani." },
+      { "title": "Mipango ya Kaya", "desc": "Panga bajeti ya ada, afya, na malengo." }
+    ],
+    "partnerTitle": "Shirikiana nasi kwa ujumuishaji wa kifedha",
+    "partnerBody": "Tunakaribisha ushirikiano na mashirika yaliyojikita katika ujumuishaji wa kifedha na uwezeshaji kiuchumi.",
+    "partnerTypes": [
+      "Taasisi za serikali",
+      "NGOs na asasi za kiraia",
+      "Programu za CSR",
+      "Benki za biashara",
+      "Wadau wa maendeleo",
+      "Sekta binafsi"
+    ],
+    "partnerCta": "Tazama Ushirikiano"
+  },
+  "Impact": {
+    "eyebrow": "Mchango Wetu",
+    "title": "Tunaunda uhuru wa kifedha, mteja mmoja kwa wakati.",
+    "subtitle": "Kila mkopo huleta mabadiliko — katika familia, biashara, na jamii.",
+    "stats": {
+      "women": "Wanawake waliohudumiwa",
+      "businesses": "Biashara zilizosaidiwa",
+      "trained": "Wateja waliofunzwa",
+      "portfolio": "Mzigo wa mikopo",
+      "repayment": "Kiwango cha urejeshaji"
+    },
+    "areasTitle": "Jinsi tunavyoleta mabadiliko",
+    "areas": [
+      { "title": "Uwezeshaji wa Wanawake", "desc": "Kuwawezesha wanawake kuanzisha na kukuza biashara." },
+      { "title": "Ukuaji wa Biashara", "desc": "Kusaidia SMEs kupanuka, kuajiri, na kuongeza mapato." },
+      { "title": "Uundaji wa Ajira", "desc": "Biashara zilizofadhiliwa huendeleza maisha na kuunda ajira." },
+      { "title": "Elimu ya Fedha", "desc": "Maelfu wamefunzwa stadi za fedha na biashara." },
+      { "title": "Utamaduni wa Akiba", "desc": "Kujenga akiba ya dharura na uthabiti." },
+      { "title": "Maendeleo ya Jamii", "desc": "Kuwekeza katika jamii, si watu binafsi tu." }
+    ],
+    "galleryTitle": "Mabadiliko kwa picha",
+    "ctaTitle": "Kuwa sehemu ya hadithi",
+    "ctaBody": "Jiunge na maelfu ya Watanzania wanaojenga maisha bora ya kifedha.",
+    "ctaApply": "Omba Mkopo",
+    "ctaStories": "Soma Hadithi za Wateja"
+  },
+  "ClientStories": {
+    "eyebrow": "Hadithi za Wateja",
+    "title": "Watu halisi. Ukuaji halisi.",
+    "subtitle": "Nyuma ya kila mkopo kuna hadithi ya ujasiri, dhamira, na mabadiliko.",
+    "beforeLabel": "Kabla",
+    "afterLabel": "Baada",
+    "note": "Hadithi zifuatazo ni mifano — zitabadilishwa na wateja halisi, kwa ridhaa.",
+    "items": [
+      { "name": "Amina H.", "business": "Nguo na vitambaa", "location": "Kinondoni", "loanType": "Mkopo wa Kikundi", "before": "Aliuza vitambaa kwenye meza ndogo sokoni, bila fursa ya mkopo.", "after": "Alipanua duka lake, akaajiri wawili, na mapato yake yakaongezeka mara tatu." },
+      { "name": "Peter M.", "business": "Usafirishaji", "location": "Temeke", "loanType": "Mkopo wa Gari", "before": "Lori moja chakavu na kupoteza mikataba asiyoweza kutimiza.", "after": "Alinunua lori la pili; sasa anahudumia wateja 15 kwa mwezi." },
+      { "name": "Fatuma J.", "business": "Mgahawa wa Mama Lishe", "location": "Temeke", "loanType": "Mkopo wa Biashara", "before": "Kibanda kidogo cha chakula chenye viti vinne na mapato yasiyo ya uhakika.", "after": "Anaendesha mgahawa kamili unaohudumia zaidi ya wateja 80 kwa siku." },
+      { "name": "Hassan M.", "business": "Bodaboda", "location": "Ubungo", "loanType": "Mkopo wa Pikipiki", "before": "Alikodi pikipiki kila siku, akipoteza sehemu kubwa ya mapato.", "after": "Anamiliki bodaboda yake; mapato yameongezeka 60% na anaweka akiba ya pili." }
+    ],
+    "shareTitle": "Una hadithi ya kushiriki?",
+    "shareBody": "Kama Joinus Finance ilikusaidia, tungependa kuonyesha hadithi yako.",
+    "shareCta": "Shiriki Hadithi Yako",
+    "ctaTitle": "Uko tayari kuandika hadithi yako mwenyewe?",
+    "ctaApply": "Omba Mkopo"
+  },
+  "Resources": {
+    "eyebrow": "Rasilimali",
+    "title": "Fomu, nyaraka na miongozo ya fedha.",
+    "subtitle": "Fomu za kupakua, nyaraka za sera, na maudhui ya elimu ya fedha ya vitendo.",
+    "downloadsTitle": "Fomu na nyaraka",
+    "download": "Pakua",
+    "downloads": [
+      { "title": "Fomu ya Maombi ya Mkopo", "desc": "Maombi ya jumla kwa bidhaa zote." },
+      { "title": "Mahitaji ya Mkopo wa Kikundi", "desc": "Orodha ya waombaji wa vikundi." },
+      { "title": "Mahitaji ya Mkopo Binafsi", "desc": "Nyaraka za maombi binafsi." },
+      { "title": "Fomu ya Malalamiko", "desc": "Wasilisha maoni au malalamiko rasmi." },
+      { "title": "Vifaa vya Elimu ya Fedha", "desc": "Miongozo ya mafunzo na rasilimali." }
+    ],
+    "articlesTitle": "Makala za elimu ya fedha",
+    "readArticle": "Soma makala",
+    "articles": [
+      { "title": "Mwongozo rahisi kwa wakopaji wa mara ya kwanza", "category": "Elimu ya Fedha" },
+      { "title": "Tabia 5 zinazojenga utamaduni wa akiba", "category": "Akiba" },
+      { "title": "Jinsi ya kusimamia mtiririko wa fedha za biashara", "category": "Biashara" },
+      { "title": "Hatari ya mikopo mingi", "category": "Ukopaji wa Kuwajibika" },
+      { "title": "Kuanzisha mkopo wa kikundi: mwongozo", "category": "Mikopo ya Vikundi" },
+      { "title": "Mipango ya bajeti ya kaya kwa urahisi", "category": "Mipango" }
+    ],
+    "policyTitle": "Sera",
+    "privacyTitle": "Sera ya Faragha",
+    "privacyBody": "Tumejikita katika kulinda taarifa zako binafsi. Sera kamili ya Faragha inakamilishwa — wasiliana nasi kwa toleo la sasa.",
+    "termsTitle": "Vigezo na Masharti",
+    "termsBody": "Mikopo yote iko chini ya makubaliano rasmi yanayoeleza riba, urejeshaji, na ada. Vigezo na Masharti kamili vinakamilishwa — wasiliana nasi kwa maelezo."
+  },
+  "Careers": {
+    "eyebrow": "Ajira",
+    "title": "Jiunge na dhamira yetu ya uwezeshaji wa kifedha.",
+    "subtitle": "Tunajenga timu yenye shauku ya kuleta mabadiliko halisi kwa Watanzania.",
+    "cultureTitle": "Kwa nini ufanye kazi Joinus?",
+    "cultureBody": "Tunathamini uadilifu, kazi ya timu, na matokeo — na tunawekeza katika watu wetu kupitia mafunzo, ushauri, na kazi yenye maana.",
+    "values": [
+      { "title": "Utamaduni wa Ushirikiano", "desc": "Tunafanya kazi kama timu na kusherehekea mafanikio ya pamoja." },
+      { "title": "Fursa za Ukuaji", "desc": "Mafunzo, ushauri, na maendeleo ya kazi." },
+      { "title": "Kazi yenye Maana", "desc": "Kila nafasi inaendeleza uwezeshaji wa kifedha." },
+      { "title": "Haki na Ujumuishaji", "desc": "Mahali pa kazi pa haki na pa wote." }
+    ],
+    "openingsTitle": "Nafasi za sasa",
+    "noOpeningsTitle": "Hakuna nafasi kwa sasa",
+    "noOpeningsBody": "Tunavutiwa kila wakati na watu wenye vipaji na shauku. Wasilisha CV yako tutawasiliana nawe nafasi inayofaa itakapotokea.",
+    "cvTitle": "Wasilisha CV yako",
+    "cvBody": "Tuma taarifa zako tutawasiliana nawe fursa inayofaa itakapotokea.",
+    "areaLabel": "Eneo la kupendezwa",
+    "areas": ["Afisa Mikopo", "Uchambuzi wa Mikopo", "Fedha na Uhasibu", "Uendeshaji", "Elimu ya Fedha", "TEHAMA", "Utawala", "Nyingine"],
+    "uploadCv": "Pakia CV",
+    "coverNote": "Barua ya utangulizi",
+    "submitCv": "Wasilisha CV"
+  },
+  "Partners": {
+    "eyebrow": "Washirika Wetu",
+    "title": "Tukijenga mustakabali wa kifedha wa Tanzania pamoja.",
+    "subtitle": "Ushirikiano wetu unaongeza mchango wetu na kuharakisha ujumuishaji wa kifedha kote Tanzania.",
+    "currentTitle": "Washirika wetu wa sasa",
+    "items": [
+      { "name": "NMB Bank", "desc": "Mshirika wa benki unaoendeleza ujumuishaji wa kifedha." },
+      { "name": "CRDB Bank", "desc": "Mshirika wa benki unaounga mkono upatikanaji wa fedha." },
+      { "name": "SELF Microfinance Fund", "desc": "Mshirika wa sekta ya mikopo." },
+      { "name": "Starlink Gulf Trading Company Ltd", "desc": "Mshirika wa biashara na suluhisho." },
+      { "name": "Magic Builders International", "desc": "Mshirika wa ujenzi na mali." },
+      { "name": "Climax Company Ltd", "desc": "Mshirika wa biashara na uwekezaji." }
+    ],
+    "benefitsTitle": "Kwa nini ushirikiane nasi",
+    "benefits": [
+      { "title": "Ufikiaji na Usambazaji", "desc": "Fikia mtandao wetu wa wateja kote Tanzania." },
+      { "title": "Programu za Elimu", "desc": "Toa elimu ya fedha pamoja nasi kwa jamii." },
+      { "title": "Ulinganifu wa CSR", "desc": "Shirikiana katika miradi ya uwezeshaji kiuchumi." },
+      { "title": "Ripoti za Matokeo", "desc": "Ripoti za uwazi za matokeo ya ushirikiano." },
+      { "title": "Ufikiaji wa Jamii", "desc": "Shirikiana na vikundi vya wanawake, SMEs, na wajasiriamali." },
+      { "title": "Maendeleo ya Biashara", "desc": "Fursa za ufadhili wa pamoja na rufaa." }
+    ],
+    "becomeTitle": "Kuwa mshirika",
+    "becomeBody": "Kama shirika lako limejikita katika ujumuishaji wa kifedha, tungependa kuchunguza kufanya kazi pamoja.",
+    "becomeCta": "Wasiliana Nasi Kuhusu Ushirikiano",
+    "emailCta": "Tutumie Barua Pepe Moja kwa Moja"
+  },
+  "Contact": {
+    "eyebrow": "Wasiliana Nasi",
+    "title": "Tuko hapa kukusaidia.",
+    "subtitle": "Maswali kuhusu mikopo, programu za elimu, au ushirikiano? Tungependa kusikia kutoka kwako.",
+    "infoTitle": "Taarifa za mawasiliano",
+    "addressLabel": "Anuani ya ofisi",
+    "phoneLabel": "Simu",
+    "emailLabel": "Barua pepe",
+    "websiteLabel": "Tovuti",
+    "whatsappTitle": "Ongea WhatsApp",
+    "whatsappBody": "Pata jibu la haraka kwa kutuma ujumbe moja kwa moja.",
+    "whatsappCta": "Tuandikie WhatsApp",
+    "formTitle": "Tutumie ujumbe",
+    "mapTitle": "Pata ofisi yetu",
+    "openMaps": "Fungua kwenye Google Maps",
+    "subjects": ["Swali la mkopo", "Hali ya maombi", "Elimu ya fedha", "Ushirikiano", "Malalamiko", "Swali la jumla"]
+  },
+  "Apply": {
+    "eyebrow": "Omba Mtandaoni",
+    "title": "Omba mkopo.",
+    "subtitle": "Chukua hatua ya kwanza kuelekea uhuru wa kifedha. Timu yetu itawasiliana nawe ndani ya siku 1–2 za kazi.",
+    "steps": [
+      { "title": "Jaza fomu", "desc": "Toa taarifa zako na mahitaji ya mkopo." },
+      { "title": "Mapitio ya nyaraka", "desc": "Tunapitia na kuomba nyaraka zozote." },
+      { "title": "Idhini", "desc": "Uamuzi ndani ya siku 1–2 za kazi." },
+      { "title": "Utoaji", "desc": "Fedha hutolewa baada ya idhini." }
+    ],
+    "helpTitle": "Unahitaji msaada?",
+    "helpBody": "Timu yetu inaweza kukuongoza katika maombi.",
+    "personalTitle": "Taarifa zako",
+    "loanTitle": "Taarifa za mkopo",
+    "loanType": "Aina ya mkopo",
+    "businessType": "Aina ya biashara",
+    "amount": "Kiasi cha mkopo (TZS)",
+    "purpose": "Madhumuni ya mkopo",
+    "uploadId": "Pakia Kitambulisho cha Taifa",
+    "submit": "Wasilisha Maombi",
+    "successTitle": "Maombi yamepokelewa",
+    "successBody": "Asante kwa kuomba. Timu yetu itapitia na kuwasiliana nawe ndani ya siku 1–2 za kazi.",
+    "urgent": "Kwa maswali ya haraka, piga",
+    "loanTypes": ["Mkopo wa Kikundi", "Mkopo wa Biashara", "Mkopo wa Mshahara", "Mkopo wa Nyumba", "Mkopo wa Gari", "Pikipiki & Bajaji", "Mkopo wa Dharura"],
+    "businessTypes": ["Biashara binafsi", "Ubia", "Kampuni ya kikomo", "NGO / CBO", "Mfanyakazi wa serikali", "Mfanyakazi wa sekta binafsi", "Mkulima", "Mfanyabiashara", "Nyingine"]
+  }
+}

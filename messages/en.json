@@ -1,0 +1,391 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About Us",
+    "loans": "Loan Products",
+    "company": "Company",
+    "education": "Financial Education",
+    "impact": "Impact",
+    "stories": "Client Stories",
+    "resources": "Resources",
+    "careers": "Careers",
+    "partners": "Our Partners",
+    "contact": "Contact",
+    "apply": "Apply for a Loan"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "sw": "Kiswahili"
+  },
+  "CompanyMenu": {
+    "about": "Who we are",
+    "impact": "Our results",
+    "stories": "Client success",
+    "partners": "Who we work with",
+    "careers": "Join the team"
+  },
+  "Trust": {
+    "regulated": "Bank of Tanzania",
+    "regulatedSub": "Licensed Tier-2 provider",
+    "location": "Dar es Salaam",
+    "locationSub": "PSSSF Commercial Complex",
+    "repayment": "98% repayment",
+    "repaymentSub": "Responsible lending",
+    "served": "Thousands served",
+    "servedSub": "Women & businesses"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Licensed Microfinance · Tanzania",
+      "title": "Financial freedom, within reach.",
+      "subtitle": "Affordable loans and financial education for women, entrepreneurs, and small businesses.",
+      "ctaPrimary": "Apply for a Loan",
+      "ctaSecondary": "Explore Loans",
+      "ctaWhatsapp": "WhatsApp"
+    },
+    "products": {
+      "eyebrow": "Loan Products",
+      "title": "Financing for every stage.",
+      "cta": "All loan products",
+      "items": {
+        "group": { "name": "Group Loans", "tag": "Women-focused · weekly" },
+        "business": { "name": "Business Loans", "tag": "Up to TZS 200M" },
+        "salaried": { "name": "Salaried Loans", "tag": "For employees" },
+        "property": { "name": "Property Financing", "tag": "Buy · build · renovate" },
+        "vehicle": { "name": "Vehicle Financing", "tag": "Cars · trucks · fleet" },
+        "motorcycle": { "name": "Motorcycle & Bajaji", "tag": "Bodaboda · bajaji" },
+        "emergency": { "name": "Emergency Loans", "tag": "Fast · short-term" }
+      }
+    },
+    "why": {
+      "eyebrow": "Why Joinus",
+      "title": "More than a lender.",
+      "items": {
+        "regulated": { "title": "Licensed & Regulated", "desc": "Under Bank of Tanzania oversight." },
+        "women": { "title": "Women-Focused", "desc": "Built for women entrepreneurs." },
+        "education": { "title": "Education Included", "desc": "Clients learn, not just borrow." },
+        "fast": { "title": "Fast & Flexible", "desc": "Terms that fit your cashflow." }
+      }
+    },
+    "impact": {
+      "title": "Our impact, in numbers.",
+      "stats": {
+        "women": "Women served",
+        "businesses": "Businesses supported",
+        "trained": "Clients trained",
+        "portfolio": "Loan portfolio",
+        "repayment": "Repayment rate"
+      }
+    },
+    "stories": {
+      "eyebrow": "Client Stories",
+      "title": "Real people. Real growth.",
+      "cta": "More stories",
+      "items": {
+        "one": {
+          "quote": "I started with a small food stall. Today I run a restaurant serving 80 customers a day.",
+          "name": "Fatuma J.",
+          "detail": "Restaurant owner · placeholder"
+        },
+        "two": {
+          "quote": "The vehicle loan helped me buy a second truck. My logistics business now serves 15 clients a month.",
+          "name": "Peter M.",
+          "detail": "Transport & logistics · placeholder"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "Partners",
+      "title": "Trusted by leading organizations.",
+      "cta": "All partners"
+    },
+    "contactCta": {
+      "title": "Take the next step toward financial freedom.",
+      "body": "Apply online, message us on WhatsApp, or visit us in Dar es Salaam.",
+      "ctaApply": "Apply for a Loan",
+      "ctaContact": "Contact Us"
+    }
+  },
+  "Footer": {
+    "slogan": "We Bring Financial Freedom Closer to You",
+    "tagline": "Affordable, responsible finance for Tanzania.",
+    "loansTitle": "Loans",
+    "companyTitle": "Company",
+    "connectTitle": "Get in Touch",
+    "regulated": "Licensed Tier-2 Microfinance Provider · Bank of Tanzania",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "WhatsApp": {
+    "aria": "Chat with us on WhatsApp",
+    "tooltip": "Chat with us",
+    "message": "Hello, I would like to inquire about your loan products."
+  },
+  "Common": {
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "location": "Location / Region",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending…",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "optional": "optional",
+    "successTitle": "Message sent",
+    "successBody": "Thank you. Our team will respond within one business day.",
+    "selectPlaceholder": "Please select"
+  },
+  "About": {
+    "eyebrow": "About Us",
+    "title": "A Tanzanian institution built on trust.",
+    "subtitle": "Empowering individuals, women, entrepreneurs, and small businesses through responsible finance.",
+    "storyTitle": "Who we are",
+    "story": "Joinus Finance Company Ltd is a licensed Tanzanian microfinance company. We pair accessible financing with financial education to close the financial inclusion gap — serving women's groups, entrepreneurs, and small businesses from Dar es Salaam and beyond.",
+    "visionLabel": "Vision",
+    "vision": "To be a trusted, leading microfinance institution promoting financial freedom across Tanzania.",
+    "missionLabel": "Mission",
+    "mission": "To provide affordable, responsible financial services combined with financial education and capacity building.",
+    "valuesTitle": "Our values",
+    "values": [
+      { "title": "Integrity", "desc": "Honesty and the highest ethical standards." },
+      { "title": "Transparency", "desc": "Clear, open communication with everyone." },
+      { "title": "Responsibility", "desc": "Accountable to clients and communities." },
+      { "title": "Client Empowerment", "desc": "Every decision puts power in clients' hands." },
+      { "title": "Growth", "desc": "Continuous improvement, for clients and us." },
+      { "title": "Community Impact", "desc": "Success measured in communities transformed." }
+    ],
+    "regulationTitle": "Regulated & accountable",
+    "regulation": "Joinus Finance is a licensed Tier-2 microfinance provider operating under Bank of Tanzania regulation — committed to transparency, fair pricing, responsible collection, and data protection.",
+    "leadershipTitle": "Leadership",
+    "leadershipNote": "Team profiles coming soon.",
+    "ctaTitle": "Ready to experience financial freedom?",
+    "ctaBody": "Join thousands of Tanzanians growing with Joinus Finance.",
+    "ctaApply": "Apply for a Loan",
+    "ctaContact": "Contact Us"
+  },
+  "LoanProducts": {
+    "eyebrow": "Loan Products",
+    "title": "Financing designed for you.",
+    "subtitle": "Seven loan products built around the real needs of Tanzanian individuals, families, and businesses.",
+    "suitableLabel": "Suitable for",
+    "applyFor": "Apply",
+    "items": {
+      "group": { "name": "Group Loans", "highlight": "Most popular", "desc": "Women-focused group lending with financial literacy training and a weekly repayment structure that builds savings discipline.", "suitable": ["Women's groups", "Chamas", "Women entrepreneurs"] },
+      "business": { "name": "Business Loans", "highlight": "Up to TZS 200M", "desc": "Financing up to TZS 200 million with flexible, tailored structures and fast processing for growing businesses.", "suitable": ["SMEs", "Traders", "Importers", "Contractors", "Retailers"] },
+      "salaried": { "name": "Salaried Loans", "desc": "Affordable financing with monthly repayment aligned to your salary cycle.", "suitable": ["Government employees", "Private-sector employees"] },
+      "property": { "name": "Property Financing", "desc": "Finance home purchase, construction, renovation, or commercial property.", "suitable": ["Home buyers", "Investors", "Landlords"] },
+      "vehicle": { "name": "Vehicle Financing", "desc": "Financing for personal and commercial vehicles, trucks, and logistics fleets.", "suitable": ["Business owners", "Transporters", "Logistics"] },
+      "motorcycle": { "name": "Motorcycle & Bajaji", "highlight": "Community impact", "desc": "Helping bodaboda riders, bajaji drivers, and delivery businesses own their livelihood.", "suitable": ["Bodaboda", "Bajaji", "Delivery riders"] },
+      "emergency": { "name": "Emergency Loans", "desc": "Short-term financial support for qualified clients facing urgent needs.", "suitable": ["Existing Joinus clients"] }
+    },
+    "requirementsTitle": "What you'll typically need",
+    "requirements": [
+      "Valid National ID",
+      "Proof of business or income",
+      "Active phone number",
+      "Completed application form"
+    ],
+    "ctaTitle": "Not sure which loan fits?",
+    "ctaBody": "Talk to our team and we'll help you find the right solution.",
+    "ctaApply": "Apply Now",
+    "ctaContact": "Talk to Us"
+  },
+  "Education": {
+    "eyebrow": "Financial Education",
+    "title": "We do more than lend — we build financially strong communities.",
+    "subtitle": "Every loan comes with practical financial education designed for lasting habits.",
+    "introTitle": "Knowledge is the foundation of financial freedom",
+    "intro": "Our programs are practical, accessible, and relevant to real lives — delivered through group sessions, one-on-one counselling, and community workshops across Tanzania.",
+    "topicsTitle": "What we teach",
+    "topics": [
+      { "title": "Responsible Borrowing", "desc": "Borrow only what you can comfortably repay." },
+      { "title": "Savings Culture", "desc": "Build the discipline to save consistently." },
+      { "title": "Business Management", "desc": "Manage cash flow and make better decisions." },
+      { "title": "Record Keeping", "desc": "Track income, expenses, and profitability." },
+      { "title": "Group Leadership", "desc": "Lead groups with accountability and trust." },
+      { "title": "Household Planning", "desc": "Budget for school fees, health, and goals." }
+    ],
+    "partnerTitle": "Partner with us for financial inclusion",
+    "partnerBody": "We welcome partnerships with organizations committed to financial inclusion and economic empowerment.",
+    "partnerTypes": [
+      "Government institutions",
+      "NGOs & civil society",
+      "CSR programs",
+      "Commercial banks",
+      "Development partners",
+      "Private sector"
+    ],
+    "partnerCta": "Explore Partnership"
+  },
+  "Impact": {
+    "eyebrow": "Our Impact",
+    "title": "Creating financial freedom, one client at a time.",
+    "subtitle": "Every loan creates a ripple of change — in families, businesses, and communities.",
+    "stats": {
+      "women": "Women served",
+      "businesses": "Businesses supported",
+      "trained": "Clients trained",
+      "portfolio": "Loan portfolio",
+      "repayment": "Repayment rate"
+    },
+    "areasTitle": "How we create change",
+    "areas": [
+      { "title": "Women Empowerment", "desc": "Empowering women to start and grow businesses." },
+      { "title": "Business Growth", "desc": "Helping SMEs expand, hire, and increase revenue." },
+      { "title": "Job Creation", "desc": "Funded businesses sustain livelihoods and create jobs." },
+      { "title": "Financial Literacy", "desc": "Thousands trained in money and business skills." },
+      { "title": "Savings Culture", "desc": "Building emergency funds and resilience." },
+      { "title": "Community Development", "desc": "Investing in communities, not just individuals." }
+    ],
+    "galleryTitle": "Impact in pictures",
+    "ctaTitle": "Be part of the story",
+    "ctaBody": "Join thousands of Tanzanians building a better financial future.",
+    "ctaApply": "Apply for a Loan",
+    "ctaStories": "Read Client Stories"
+  },
+  "ClientStories": {
+    "eyebrow": "Client Stories",
+    "title": "Real people. Real growth.",
+    "subtitle": "Behind every loan is a story of courage, ambition, and transformation.",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "note": "Stories below are placeholders — to be replaced with real clients, with consent.",
+    "items": [
+      { "name": "Amina H.", "business": "Textile & fabric", "location": "Kinondoni", "loanType": "Group Loan", "before": "Selling fabrics from a small market table, with no access to credit.", "after": "Expanded her shop, hired two employees, and tripled her income." },
+      { "name": "Peter M.", "business": "Transport & logistics", "location": "Temeke", "loanType": "Vehicle Financing", "before": "One worn-out truck and losing contracts he couldn't fulfil.", "after": "Bought a second truck; now serves 15 regular clients monthly." },
+      { "name": "Fatuma J.", "business": "Mama Lishe restaurant", "location": "Temeke", "loanType": "Business Loan", "before": "A small food stall with seating for four and inconsistent income.", "after": "Runs a full restaurant serving over 80 customers a day." },
+      { "name": "Hassan M.", "business": "Bodaboda transport", "location": "Ubungo", "loanType": "Motorcycle Financing", "before": "Renting a motorcycle daily, losing most of his earnings.", "after": "Owns his bodaboda; income up 60% and saving for a second." }
+    ],
+    "shareTitle": "Do you have a story to share?",
+    "shareBody": "If Joinus Finance made a difference for you, we'd love to feature your story.",
+    "shareCta": "Share Your Story",
+    "ctaTitle": "Ready to write your own story?",
+    "ctaApply": "Apply for a Loan"
+  },
+  "Resources": {
+    "eyebrow": "Resources",
+    "title": "Forms, documents & financial guides.",
+    "subtitle": "Downloadable forms, policy documents, and practical financial education content.",
+    "downloadsTitle": "Forms & documents",
+    "download": "Download",
+    "downloads": [
+      { "title": "Loan Application Form", "desc": "General application for all products." },
+      { "title": "Group Loan Requirements", "desc": "Checklist for group applicants." },
+      { "title": "Individual Loan Requirements", "desc": "Documents for individual applications." },
+      { "title": "Complaint Form", "desc": "Submit formal feedback or a complaint." },
+      { "title": "Financial Education Materials", "desc": "Training guides and resources." }
+    ],
+    "articlesTitle": "Financial education articles",
+    "readArticle": "Read article",
+    "articles": [
+      { "title": "A simple guide for first-time borrowers", "category": "Financial Education" },
+      { "title": "5 habits that build a strong savings culture", "category": "Savings" },
+      { "title": "How to manage your business cash flow", "category": "Business" },
+      { "title": "The danger of multiple loans", "category": "Responsible Borrowing" },
+      { "title": "Starting a group loan: a step-by-step guide", "category": "Group Loans" },
+      { "title": "Household budget planning made simple", "category": "Planning" }
+    ],
+    "policyTitle": "Policies",
+    "privacyTitle": "Privacy Policy",
+    "privacyBody": "We are committed to protecting your personal information. The full Privacy Policy is being finalized — contact us for the current version.",
+    "termsTitle": "Terms & Conditions",
+    "termsBody": "All loans are subject to a formal agreement outlining interest, repayment, and fees. The full Terms & Conditions are being finalized — contact us for details."
+  },
+  "Careers": {
+    "eyebrow": "Careers",
+    "title": "Join our mission of financial empowerment.",
+    "subtitle": "We're building a team passionate about making a real difference for Tanzanians.",
+    "cultureTitle": "Why work at Joinus?",
+    "cultureBody": "We value integrity, teamwork, and results — and we invest in our people through training, mentorship, and meaningful work.",
+    "values": [
+      { "title": "Collaborative Culture", "desc": "We work as a team and celebrate shared success." },
+      { "title": "Growth Opportunities", "desc": "Training, mentorship, and career development." },
+      { "title": "Meaningful Work", "desc": "Every role advances financial empowerment." },
+      { "title": "Fair & Inclusive", "desc": "A fair, diverse workplace for everyone." }
+    ],
+    "openingsTitle": "Current openings",
+    "noOpeningsTitle": "No open positions right now",
+    "noOpeningsBody": "We're always interested in talented, passionate people. Submit your CV and we'll reach out when a suitable role opens.",
+    "cvTitle": "Submit your CV",
+    "cvBody": "Send your details and we'll contact you when a relevant opportunity opens.",
+    "areaLabel": "Area of interest",
+    "areas": ["Loan Officer", "Credit Analysis", "Finance & Accounting", "Operations", "Financial Education", "IT & Technology", "Administration", "Other"],
+    "uploadCv": "Upload CV",
+    "coverNote": "Cover note",
+    "submitCv": "Submit CV"
+  },
+  "Partners": {
+    "eyebrow": "Our Partners",
+    "title": "Building Tanzania's financial future together.",
+    "subtitle": "Our partnerships amplify our impact and accelerate financial inclusion across Tanzania.",
+    "currentTitle": "Our current partners",
+    "items": [
+      { "name": "NMB Bank", "desc": "Banking partner advancing financial inclusion." },
+      { "name": "CRDB Bank", "desc": "Banking partner supporting access to finance." },
+      { "name": "SELF Microfinance Fund", "desc": "Microfinance industry partner." },
+      { "name": "Starlink Gulf Trading Company Ltd", "desc": "Trading and business solutions partner." },
+      { "name": "Magic Builders International", "desc": "Construction and property partner." },
+      { "name": "Climax Company Ltd", "desc": "Business and investment partner." }
+    ],
+    "benefitsTitle": "Why partner with us",
+    "benefits": [
+      { "title": "Reach & Distribution", "desc": "Access our client network across Tanzania." },
+      { "title": "Education Programs", "desc": "Co-deliver financial literacy to communities." },
+      { "title": "CSR Alignment", "desc": "Partner on economic empowerment initiatives." },
+      { "title": "Impact Reporting", "desc": "Transparent reports on partnership outcomes." },
+      { "title": "Community Access", "desc": "Engage women's groups, SMEs, and entrepreneurs." },
+      { "title": "Business Development", "desc": "Co-financing and referral opportunities." }
+    ],
+    "becomeTitle": "Become a partner",
+    "becomeBody": "If your organization is committed to financial inclusion, we'd love to explore working together.",
+    "becomeCta": "Contact Us About Partnerships",
+    "emailCta": "Email Directly"
+  },
+  "Contact": {
+    "eyebrow": "Contact Us",
+    "title": "We're here to help.",
+    "subtitle": "Questions about our loans, education programs, or a partnership? We'd love to hear from you.",
+    "infoTitle": "Contact information",
+    "addressLabel": "Office address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "websiteLabel": "Website",
+    "whatsappTitle": "Chat on WhatsApp",
+    "whatsappBody": "Get a quick response by messaging us directly.",
+    "whatsappCta": "WhatsApp Us",
+    "formTitle": "Send us a message",
+    "mapTitle": "Find our office",
+    "openMaps": "Open in Google Maps",
+    "subjects": ["Loan enquiry", "Application status", "Financial education", "Partnership", "Complaint", "General enquiry"]
+  },
+  "Apply": {
+    "eyebrow": "Apply Online",
+    "title": "Apply for a loan.",
+    "subtitle": "Take the first step toward financial freedom. Our team will be in touch within 1–2 business days.",
+    "steps": [
+      { "title": "Fill the form", "desc": "Share your details and loan requirements." },
+      { "title": "Document review", "desc": "We review and request any documents." },
+      { "title": "Approval", "desc": "A decision within 1–2 business days." },
+      { "title": "Disbursement", "desc": "Funds disbursed on approval." }
+    ],
+    "helpTitle": "Need help?",
+    "helpBody": "Our team can guide you through the application.",
+    "personalTitle": "Your details",
+    "loanTitle": "Loan details",
+    "loanType": "Loan type",
+    "businessType": "Business type",
+    "amount": "Loan amount (TZS)",
+    "purpose": "Purpose of loan",
+    "uploadId": "Upload National ID",
+    "submit": "Submit Application",
+    "successTitle": "Application received",
+    "successBody": "Thank you for applying. Our team will review and contact you within 1–2 business days.",
+    "urgent": "For urgent enquiries, call",
+    "loanTypes": ["Group Loan", "Business Loan", "Salaried Loan", "Property Financing", "Vehicle Financing", "Motorcycle & Bajaji", "Emergency Loan"],
+    "businessTypes": ["Sole proprietorship", "Partnership", "Limited company", "NGO / CBO", "Government employee", "Private-sector employee", "Farmer", "Trader", "Other"]
+  }
+}
