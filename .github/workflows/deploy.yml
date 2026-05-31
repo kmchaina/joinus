@@ -19,7 +19,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # npm install (not the strict `npm ci`) so the Linux runner resolves
+        # its own platform-specific native binaries (Tailwind oxide / SWC),
+        # which a Windows-generated lockfile doesn't include.
+        run: npm install --no-audit --no-fund
 
       - name: Build static site
         run: npm run build
