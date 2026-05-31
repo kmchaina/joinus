@@ -1,0 +1,19 @@
+# Joinus Finance — static site (Next.js export) on Apache/cPanel
+RewriteEngine On
+
+# Send the bare domain root to the English site.
+RewriteRule ^$ /en/ [R=302,L]
+
+# Friendly 404 (Next.js exports 404.html at the docroot)
+ErrorDocument 404 /404.html
+
+# Small caching win for static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+</IfModule>
