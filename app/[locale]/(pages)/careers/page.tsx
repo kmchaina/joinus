@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Inbox } from "lucide-react";
 import PageHero from "@/app/components/PageHero";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 
 const fieldClass =
   "w-full border border-navy/15 rounded-lg px-4 py-3 text-sm text-navy placeholder:text-navy/30 focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 bg-white";
@@ -38,11 +38,13 @@ export default async function CareersPage({
               ))}
             </div>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-cream grid place-items-center ring-1 ring-navy/5">
-            <PhotoPlaceholder
-              title="The team at work"
-              description="Joinus staff collaborating in the office, or a friendly team group portrait. Shows the people and culture behind the company."
-              spec="Landscape · 4:3"
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ring-1 ring-navy/5">
+            <Image
+              src="/photos/careers-team.jpg"
+              alt="The Joinus Finance team"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
             />
           </div>
         </div>

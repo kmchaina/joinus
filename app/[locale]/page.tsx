@@ -1,4 +1,5 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
   Users,
@@ -23,7 +24,6 @@ import {
 } from "lucide-react";
 import PartnerLogo from "@/app/components/PartnerLogo";
 import StatCounter from "@/app/components/StatCounter";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 import { site, productKeys, impactStats, partners } from "@/lib/site";
 
 const productIcons: Record<string, React.ElementType> = {
@@ -116,12 +116,14 @@ export default async function HomePage({
 
             {/* Hero photo */}
             <div className="animate-fade-up" style={{ animationDelay: "120ms" }}>
-              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-navy-light ring-1 ring-white/10 grid place-items-center">
-                <PhotoPlaceholder
-                  dark
-                  title="A Tanzanian woman entrepreneur"
-                  description="A confident, warm photo of a real client — a woman business owner at her shop or workplace, looking to camera. Represents who Joinus serves."
-                  spec="Portrait · 4:5"
+              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-navy-light ring-1 ring-white/10">
+                <Image
+                  src="/photos/hero-portrait.jpg"
+                  alt="Joinus Finance team members in conversation"
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  className="object-cover"
                 />
                 <div className="absolute bottom-4 right-4 w-16 h-16 border border-gold/30 rounded-xl pointer-events-none" />
               </div>

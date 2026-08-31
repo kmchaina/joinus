@@ -1,21 +1,20 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import PageHero from "@/app/components/PageHero";
 import StatCounter from "@/app/components/StatCounter";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 import { impactStats } from "@/lib/site";
 
-// Suggested shot list for the impact gallery — guidance for the photographer.
-const galleryShots = [
-  "Woman entrepreneur at her shop",
-  "Women's group meeting",
-  "Market trader with goods",
-  "Bodaboda / bajaji rider",
-  "Client inside their business",
-  "Training / workshop session",
-  "Loan officer with a client",
-  "Happy client portrait",
+// Gallery photos. Captions describe what's actually shown — replace with
+// field photography (clients, businesses, group meetings) when available.
+const galleryPhotos = [
+  { src: "/photos/gallery-team.jpg", caption: "Our team" },
+  { src: "/photos/gallery-training.jpg", caption: "Staff training session" },
+  { src: "/photos/gallery-planning.jpg", caption: "Planning meeting" },
+  { src: "/photos/gallery-oneonone.jpg", caption: "Working together" },
+  { src: "/photos/gallery-office.jpg", caption: "Our office in Dar es Salaam" },
+  { src: "/photos/gallery-people.jpg", caption: "The people behind Joinus" },
 ];
 
 export default async function ImpactPage({
@@ -71,11 +70,23 @@ export default async function ImpactPage({
       <section className="bg-cream py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-bold text-navy mb-8 text-center">{t("galleryTitle")}</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {galleryShots.map((shot) => (
-              <div key={shot} className="aspect-square rounded-xl bg-white ring-1 ring-navy/[0.07] grid place-items-center">
-                <PhotoPlaceholder title={shot} compact />
-              </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            {galleryPhotos.map((photo) => (
+              <figure
+                key={photo.src}
+                className="group relative aspect-square rounded-xl overflow-hidden ring-1 ring-navy/[0.07]"
+              >
+                <Image
+                  src={photo.src}
+                  alt={photo.caption}
+                  fill
+                  sizes="(min-width: 640px) 33vw, 50vw"
+                  className="object-cover"
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/80 to-transparent p-3 pt-8 text-white text-xs font-medium">
+                  {photo.caption}
+                </figcaption>
+              </figure>
             ))}
           </div>
         </div>

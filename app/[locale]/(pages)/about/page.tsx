@@ -1,8 +1,8 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { ShieldCheck, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import PageHero from "@/app/components/PageHero";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 
 export default async function AboutPage({
   params,
@@ -21,11 +21,13 @@ export default async function AboutPage({
       {/* Story */}
       <section className="bg-white py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="aspect-[4/3] rounded-2xl bg-cream grid place-items-center ring-1 ring-navy/5 order-2 lg:order-1">
-            <PhotoPlaceholder
-              title="The Joinus team or branch"
-              description="A warm, real photo — staff helping a client at the counter, or the office interior in Dar es Salaam. Shows a real, approachable institution."
-              spec="Landscape · 4:3"
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ring-1 ring-navy/5 order-2 lg:order-1">
+            <Image
+              src="/photos/about-team.jpg"
+              alt="The Joinus Finance team at the office in Dar es Salaam"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
             />
           </div>
           <div className="order-1 lg:order-2">

@@ -2,7 +2,6 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import PageHero from "@/app/components/PageHero";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 
 type Story = {
   name: string;
@@ -35,13 +34,11 @@ export default async function ClientStoriesPage({
                 key={s.name}
                 className="grid sm:grid-cols-12 bg-cream rounded-2xl ring-1 ring-navy/5 overflow-hidden"
               >
-                {/* Portrait */}
+                {/* Portrait — initial monogram until a consented client photo is available */}
                 <div className="sm:col-span-4 lg:col-span-3 bg-white border-b sm:border-b-0 sm:border-r border-navy/5 grid place-items-center min-h-[240px] p-6">
-                  <PhotoPlaceholder
-                    title={`Portrait of ${s.name}`}
-                    description="A real photo of this client at their business — captured with their written consent."
-                    spec="Portrait · 3:4"
-                  />
+                  <span className="grid place-items-center w-20 h-20 rounded-full bg-cream text-navy font-heading font-bold text-2xl ring-1 ring-navy/10">
+                    {s.name.charAt(0)}
+                  </span>
                 </div>
 
                 {/* Content */}

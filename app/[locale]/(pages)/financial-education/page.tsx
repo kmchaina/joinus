@@ -1,8 +1,8 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import PageHero from "@/app/components/PageHero";
-import PhotoPlaceholder from "@/app/components/PhotoPlaceholder";
 
 export default async function FinancialEducationPage({
   params,
@@ -26,11 +26,13 @@ export default async function FinancialEducationPage({
             <h2 className="font-heading text-3xl font-bold text-navy mb-5">{t("introTitle")}</h2>
             <p className="text-navy/70 leading-relaxed">{t("intro")}</p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-cream grid place-items-center ring-1 ring-navy/5">
-            <PhotoPlaceholder
-              title="A financial-education session"
-              description="A facilitator teaching a women's group or community workshop — people engaged, taking notes. Conveys 'we teach, not just lend.'"
-              spec="Landscape · 4:3"
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ring-1 ring-navy/5">
+            <Image
+              src="/photos/education-session.jpg"
+              alt="A facilitator leading a training session at Joinus Finance"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
             />
           </div>
         </div>
